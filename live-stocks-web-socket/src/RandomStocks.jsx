@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const StockPrice = () => {
+const RandomStocks = () => {
     const [prices, setPrices] = useState([]);
 
     useEffect(() => {
@@ -39,4 +39,4 @@ const StockPrice = () => {
     );
 };
 
-export default StockPrice;
+export default RandomStocks;
